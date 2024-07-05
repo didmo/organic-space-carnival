@@ -1,0 +1,164 @@
+/* style.css */
+
+/* Reset and basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0; /* تغيير لون الخلفية */
+    color: #15044f; /* تغيير لون النص */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #15044f; /* تغيير لون النص */
+}
+
+.navigation a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #15044f; /* تغيير لون النص */
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons a i {
+    font-size: 2em;
+}
+
+.cards {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    color: #15044f; /* تغيير لون النص */
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 5px 25px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center; /* تحديد محاذاة النصوص إلى الوسط */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon i {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.icon p {
+    margin: 0;
+    display: inline-block;
+}
+
+.info {
+    text-align: center; /* تحديد محاذاة النصوص إلى الوسط */
+}
+
+.info h3 {
+    margin: 10px 0;
+}
+
+.info p {
+    margin: 0;
+}
+
+.purple-text {
+    color: #15044f; /* تغيير لون النص */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        padding: 10px;
+    }
+
+    .cards {
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+/* CSS */
+.purple-text a[href="mailto:merahimed035@gmail.com"] {
+  color: #15044f;
+  text-decoration: none;
+}
+
+.purple-text a[href="https://www.aliexpress.com/"] {
+  color: #15044f;
+  text-decoration: none;
+}
+
+/* style.css */
+
+body {
+    background-image: url('Image.jpg'); /* استبدال بالمسار الفعلي للصورة */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* تجميد الخلفية أثناء التمرير */
+}
+
+
+
+/* style.css */
+
+/* إضافة تكبير للرموز عند التمرير فوقها */
+.social-icons a i {
+    font-size: 2em;
+    transition: transform 0.3s ease; /* تأثير انتقالي للتكبير */
+}
+
+.social-icons a i:hover {
+    transform: scale(1.2); /* تكبير الرمز عند التمرير فوقه */
+}
